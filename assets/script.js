@@ -1,17 +1,8 @@
 $(document).ready(function(){
-
-
-
+  console.log( 'ready!' );
 
 $("#background").click(function() {
-  $("#popup").show();
-})
-
-
-
-
-$("#berksymbol").click(function(){
-    $("#description").hide();
+  $("#popup").hide();
 })
 
 })

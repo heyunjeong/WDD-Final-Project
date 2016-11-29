@@ -1,8 +1,4 @@
 /* main page */
-head {
-
-}
-
 #background {
   position: fixed;
   top: -50%;
@@ -47,14 +43,13 @@ h2 {
 
 #popup {
   font-family: 'Cabin', sans-serif;
-  width: 300px;
+  width: 500px;
   height: auto;
   margin: 0 auto;
   background-color: white;
-  opacity: 75%;
   position: relative;
   top: 50%;
-  transform: translateY(200%);
+  transform: translateY(400%);
   padding: 12px;
   text-align: center;
 }
@@ -69,11 +64,9 @@ h2 {
   text-align: center;
   text-decoration: none;
   color: white;
-
 }
 
 /* places page */
-
 .title {
   font-family: 'arsenale_white';
   font-size: 60px;
@@ -83,6 +76,13 @@ h2 {
   padding-left: 30px;
 }
 
+.brief {
+  padding-left: 30px;
+  font-size: 12px;
+  font-family: 'Cabin', sans-serif;
+  position: relative;
+  top: 75px;
+}
 
 #grid {
   margin: 0 auto;
@@ -91,26 +91,14 @@ h2 {
   top: 90px;
 }
 
-.first {
-
-}
-
-.second {
-
-}
-
-.third {
-
-}
-
 .place {
   width: 300px;
   height: inherit;
   padding: 25px;
+  opacity: 50%;
 }
 
 /* berkeley page */
-
 #doodles {
   margin: 0 auto;
   display: table;
@@ -121,6 +109,7 @@ h2 {
   width: inherit;
   height: 300px;
   padding: 30px;
+  opacity: 50%;
 }
 
 #description {
